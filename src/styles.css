@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script:wght@400;700&display=swap');
+
+/* Global button hover effects */
+.btn:hover {
+  background: #ffffff !important;
+  color: #87CEEB !important;
+  border: 2px solid #87CEEB !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 5px 15px rgba(135, 206, 235, 0.3) !important;
+}
+
+.btn-secondary:hover {
+  background: #87CEEB !important;
+  color: #000000 !important;
+  border: 2px solid #87CEEB !important;
+}
+
+/* Navbar link hover effects */
+nav button:hover {
+  background: #87CEEB !important;
+  color: #000000 !important;
+}
+
+/* Input focus effects */
+input:focus, textarea:focus {
+  outline: none !important;
+  border: 2px solid #87CEEB !important;
+  box-shadow: 0 0 10px rgba(135, 206, 235, 0.3) !important;
+}
+
+/* Fashionable font hover effects */
+h2[style*="logoStyle"]:hover, .logo:hover {
+  font-family: 'Pacifico', 'Dancing Script', cursive !important;
+  transform: scale(1.15) rotate(-2deg) !important;
+  text-shadow: 3px 3px 8px rgba(135, 206, 235, 0.7) !important;
+  background: linear-gradient(45deg, #87CEEB, #4169E1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+h1:hover {
+  font-family: 'Pacifico', 'Dancing Script', cursive !important;
+  transform: scale(1.08) rotate(1deg) !important;
+  text-shadow: 4px 4px 12px rgba(135, 206, 235, 0.8) !important;
+  background: linear-gradient(45deg, #87CEEB, #4169E1, #00BFFF) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  animation: glow 2s ease-in-out infinite alternate !important;
+}
+
+@keyframes glow {
+  from { filter: drop-shadow(0 0 5px rgba(135, 206, 235, 0.5)); }
+  to { filter: drop-shadow(0 0 15px rgba(135, 206, 235, 0.9)); }
+}
